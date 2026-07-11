@@ -1,0 +1,30 @@
+/* JAP — Color tokens
+   Near-black canvas, chunky logo accents. */
+:root {
+  /* Base surfaces */
+  --bg: #111111;              /* page canvas — near-black, not pure */
+  --surface-card: #1A1A1A;    /* card / raised surface */
+  --border: #252525;          /* hairline dividers + card borders */
+
+  /* Text */
+  --text-primary: rgba(255, 255, 255, 0.88);
+  --text-secondary: rgba(255, 255, 255, 0.5);
+  --text-faint: rgba(255, 255, 255, 0.32);
+
+  /* Logo accents */
+  --accent-purple: #7B2FF0;   /* J */
+  --accent-yellow: #FFD600;   /* A */
+  --accent-magenta: #FF2D8A;  /* P */
+
+  /* Accent tints (icon boxes, hover fills) */
+  --tint-purple: rgba(123, 47, 240, 0.12);
+  --tint-yellow: rgba(255, 214, 0, 0.12);
+  --tint-magenta: rgba(255, 45, 138, 0.12);
+
+  /* Semantic aliases */
+  --surface-page: var(--bg);
+  --text-heading: var(--text-primary);
+  --text-body: var(--text-secondary);
+  --border-card: var(--border);
+  --accent: var(--accent-purple);
+}

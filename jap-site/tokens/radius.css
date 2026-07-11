@@ -1,0 +1,6 @@
+/* JAP — Border radius tokens. */
+:root {
+  --radius-card: 16px;   /* cards */
+  --radius-pill: 99px;   /* CTAs, tag pills */
+  --radius-icon: 10px;   /* small icon boxes */
+}

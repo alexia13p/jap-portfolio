@@ -1,0 +1,28 @@
+/* JAP — Typography tokens
+   Fredoka for chunky rounded display, Inter for clean body. */
+:root {
+  --font-display: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Weights */
+  --fw-body: 400;             /* @kind font */
+  --fw-body-medium: 500;     /* @kind font */
+  --fw-body-semibold: 600;   /* @kind font */
+  --fw-display-semibold: 600;/* @kind font */
+  --fw-display-bold: 700;    /* @kind font */
+
+  /* Fluid display sizes (clamp) */
+  --fs-hero: clamp(34px, 7vw, 52px); /* @kind font */
+  --fs-statement: clamp(26px, 4.5vw, 38px); /* @kind font */
+  --fs-card-title: 21px;                    /* @kind font */
+  --fs-body: clamp(16px, 1.7vw, 18px);      /* @kind font */
+  --fs-tagline: clamp(17px, 2vw, 20px);   /* @kind font */
+
+  /* Labels / tags */
+  --fs-label: 13px;          /* @kind font */
+  --ls-label: 0.15em;        /* @kind font */
+
+  /* Line heights */
+  --lh-tight: 1.1;           /* @kind font */
+  --lh-body: 1.6;            /* @kind font */
+}

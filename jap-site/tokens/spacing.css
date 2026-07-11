@@ -1,0 +1,18 @@
+/* JAP — Spacing tokens. Generous vertical rhythm. */
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;   /* gap between stacked work cards */
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-section: 80px;   /* vertical padding per section */
+  --space-card: 24px;      /* inner card padding */
+
+  /* Layout */
+  --content-max: 680px;    /* single-column max width */
+  --tagline-max: 440px;
+  --statement-max: 460px;
+}

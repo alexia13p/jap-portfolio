@@ -1,0 +1,4 @@
+/* JAP — Webfonts.
+   Fredoka (display) + Inter (body), loaded from Google Fonts.
+   Consumers get these via the styles.css @import closure. */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
