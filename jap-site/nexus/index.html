@@ -101,8 +101,15 @@
     .cta-row { justify-content: center; }
     .specs { left: 0; right: 0; justify-content: center; gap: 28px; }
   }
-</style>
-</head>
+
+  /* Short viewports: drop the fixed specs/HUD so they can't overlap the copy */
+  @media (max-height: 780px) {
+    .specs, .hud { display: none; }
+  }
+  @media (max-width: 820px) {
+    .overlay { padding-bottom: 96px; }
+  }
+</style></head>
 <body>
 <div class="loader" id="loader"><div class="ring"></div></div>
 <div id="stage"></div>
@@ -114,7 +121,7 @@
     <p class="lead">I architect, secure, and keep enterprise infrastructure running — cloud to endpoint. Seven years turning downtime into uptime across manufacturing, enterprise, and telecom.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="mailto:jap.tolentino11@gmail.com"><span class="arrow">→</span> Let's Work Together</a>
-      <a class="btn btn-ghost" href="#">View Resume</a>
+      <a class="btn btn-ghost" href="../jap-resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
     </div>
   </div>
 </div>
