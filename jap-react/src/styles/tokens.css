@@ -1,0 +1,52 @@
+/* JAP — design tokens as CSS custom properties. */
+:root {
+  --bg: #111111;
+  --surface-card: #1a1a1a;
+  --border: #252525;
+
+  --navy: #070c18;
+  --navy-line: #16294a;
+  --navy-node: #2a4a86;
+
+  --text-primary: rgba(255, 255, 255, 0.88);
+  --text-secondary: rgba(255, 255, 255, 0.5);
+  --text-faint: rgba(255, 255, 255, 0.32);
+
+  --accent-purple: #7b2ff0;
+  --accent-yellow: #ffd600;
+  --accent-magenta: #ff2d8a;
+  --accent-blue: #3b82f6;
+  --accent-blue-glow: #6aa8ff;
+
+  --tint-purple: rgba(123, 47, 240, 0.12);
+  --tint-yellow: rgba(255, 214, 0, 0.12);
+  --tint-magenta: rgba(255, 45, 138, 0.12);
+
+  --font-display: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --fw-body: 400;
+  --fw-body-medium: 500;
+  --fw-body-semibold: 600;
+  --fw-display-semibold: 600;
+  --fw-display-bold: 700;
+
+  --fs-hero: clamp(34px, 7vw, 52px);
+  --fs-statement: clamp(26px, 4.5vw, 38px);
+  --fs-card-title: 21px;
+  --fs-body: clamp(16px, 1.7vw, 18px);
+  --fs-tagline: clamp(17px, 2vw, 20px);
+  --fs-label: 13px;
+  --ls-label: 0.15em;
+  --lh-tight: 1.1;
+  --lh-body: 1.6;
+
+  --space-section: 80px;
+  --space-card: 24px;
+  --content-max: 680px;
+  --tagline-max: 440px;
+  --statement-max: 460px;
+
+  --radius-card: 16px;
+  --radius-pill: 99px;
+  --radius-icon: 10px;
+}
